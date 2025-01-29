@@ -8,6 +8,7 @@ set expandtab
 set number
 set mouse=
 set autoindent
+set foldmethod=syntax
 set cinoptions+=l1  " align with case label
 set cinoptions+=:0  " align case with switch
 
