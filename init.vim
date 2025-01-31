@@ -8,7 +8,7 @@ set expandtab
 set number
 set mouse=a
 set autoindent
-set foldmethod=syntax
+set foldmethod=indent
 set foldlevelstart=99
 set cinoptions+=l1  " align with case label
 set cinoptions+=:0  " align case with switch
@@ -90,31 +90,4 @@ nmap <C-t> :TagbarToggle<CR>
 " zaibatsu
 " zellner 
 
-colorscheme terafox
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+colorscheme nightfox
