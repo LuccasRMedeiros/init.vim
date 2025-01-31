@@ -6,7 +6,7 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 set number
-set mouse=
+set mouse=a
 set autoindent
 set foldmethod=syntax
 set foldlevelstart=99
@@ -22,6 +22,7 @@ call plug#begin()
     Plug 'scrooloose/nerdtree'
     Plug 'scrooloose/nerdcommenter'
     Plug 'majutsushi/tagbar'
+    Plug 'EdenEast/nightfox.nvim'
 
 call plug#end()
 
@@ -56,3 +57,64 @@ autocmd BufWinEnter * if getcmdwintype() == '' | silent NERDTreeMirror | endif
 nmap <C-t> :TagbarToggle<CR>
 
 " End of Tagbar configurations
+
+" Theme, for convenience the entire list of available themes (including
+" downloaded ones):
+
+" blue
+" carbonfox
+" darkblue
+" dawnfox
+" dayfox
+" delek
+" desert
+" duskfox
+" elflord
+" evening
+" industry 
+" koehler  
+" morning  
+" murphy
+" nightfox
+" nordfox
+" pablo    
+" peachpuff
+" ron      
+" shine    
+" slate 
+" sorbet
+" terafox
+" torte
+" vim
+" wildcharm
+" zaibatsu
+" zellner 
+
+colorscheme terafox
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
