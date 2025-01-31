@@ -9,7 +9,7 @@ set number
 set mouse=
 set autoindent
 set foldmethod=syntax
-set foldlevelstart=1
+set foldlevelstart=99
 set cinoptions+=l1  " align with case label
 set cinoptions+=:0  " align case with switch
 
