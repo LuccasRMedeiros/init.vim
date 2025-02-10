@@ -25,3 +25,16 @@ curl -fLo ~/.var/app/io.neovim.nvim/data/nvim/site/autoload/plug.vim --create-di
 iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
     ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
 ```
+
+**New**:
+ - Added nvim-cmp to allow C/C++ code completion using **ccls lsp engine**
+
+Now ccls is a requirement when using this configuration. Instructions for
+building and installation can be found on [ccls wiki](https://github.com/MaskRay/ccls/wiki)
+
+To have it on Debian based distros:
+
+```
+# bullseye/11 and later
+sudo apt install ccls
+```
