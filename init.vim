@@ -96,4 +96,4 @@ filetype indent plugin on
 " zaibatsu
 " zellner 
 
-colorscheme nightfox
+colorscheme carbonfox

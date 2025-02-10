@@ -1,7 +1,16 @@
 # init.vim
 
-This config file is for neovim, also it uses [junegunn's vim-plug](https://github.com/junegunn/vim-plug?tab=readme-ov-file#unix)
+To easily clone navigate to ~/.config/ and then:
+```
+#ssh
+git clone git@github.com:LuccasRMedeiros/init.vim.git nvim
+```
+```
+# https
+git clone https://github.com/LuccasRMedeiros/init.vim.git nvim
+```
 
+This config file is for neovim, also it uses [junegunn's vim-plug](https://github.com/junegunn/vim-plug?tab=readme-ov-file#unix)
 
 Instalation instructions from its repository
 
